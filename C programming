@@ -1,0 +1,15 @@
+#include<studio.h>
+Void main()
+{
+int i,number;
+printf("\n enter any number to find factors");
+scanf("%d",&number);
+printf("\n factors of given number are: ");
+for(i=1;i<=number;i++)
+{
+if(number%i==0)
+{
+printf("%d",i);
+}
+}
+}
